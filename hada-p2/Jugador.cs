@@ -111,7 +111,9 @@ namespace Hada
         public event EventHandler<AmonestacionesMaximoExcedidoArgs> amonestacionesMaximoExcedido;
         public event EventHandler<FaltasMaximoExcedidoArgs> faltasMaximoExcedido;
         public event EventHandler<EnergiaMinimaExcedidaArgs> energiaMinimaExcedida;
-        protected virtual void expulsarAmonestacion(AmonestacionesMaximoExcedidoArgs args)
+
+        /// 'Handlers'
+        /*protected virtual void expulsarAmonestacion(AmonestacionesMaximoExcedidoArgs args)
         {
             EventHandler<AmonestacionesMaximoExcedidoArgs> handler = amonestacionesMaximoExcedido;
             handler(this, args);
@@ -125,7 +127,7 @@ namespace Hada
         {
             EventHandler<EnergiaMinimaExcedidaArgs> handler = energiaMinimaExcedida;
             handler(this, args);
-        }
+        }*/
     }
     public class AmonestacionesMaximoExcedidoArgs : EventArgs
     {
