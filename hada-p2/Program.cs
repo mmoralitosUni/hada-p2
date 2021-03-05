@@ -4,6 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
+/// <summary>
+/// Namespace de la practica, agrupa las clases Jugador, Equipo, los EventHandlerArgs y el Program
+/// </summary>
 namespace Hada
 {
     class Program
